@@ -67,15 +67,15 @@ Full PoC (English): [goose-1.52.0-default-auto-mode-no-policy-gate-poc.py](goose
 - `permission_inspector.rs` (inspect): https://github.com/aaif-goose/goose/blob/v1.52.0/crates/goose/src/permission/permission_inspector.rs
 - `shell.rs` (run_command/build_shell_command): https://github.com/aaif-goose/goose/blob/v1.52.0/crates/goose/src/agents/platform_extensions/developer/shell.rs
 - `configure.rs` (first-run setup): https://github.com/aaif-goose/goose/blob/v1.52.0/crates/goose-cli/src/commands/configure.rs
-- Vendor issue: (add after filing — https://github.com/aaif-goose/goose/issues/NNN)
+- Vendor issue: https://github.com/aaif-goose/goose/issues/12567
 
 ## Disclosure timeline
 
 | Date | Event |
 |---|---|
 | 2026-09 | Discovered and verified |
-| 2026-09 | Reported to vendor (GitHub issue) |
 | 2026-09 | Submitted to VulnCheck (pending CVE assignment) |
+| 2026-09 | Reported to vendor (GitHub issue #12567) |
 
 ## Credit
 

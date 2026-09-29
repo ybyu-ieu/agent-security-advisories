@@ -65,15 +65,15 @@ Full PoC (English): [goose-1.52.0-shell-tool-arbitrary-command-execution-poc.py]
 - `permission_inspector.rs` (inspect): https://github.com/aaif-goose/goose/blob/v1.52.0/crates/goose/src/permission/permission_inspector.rs
 - `goose_mode.rs` (GooseMode): https://github.com/aaif-goose/goose/blob/v1.52.0/crates/goose-provider-types/src/goose_mode.rs
 - `agent.rs` (Agent::new): https://github.com/aaif-goose/goose/blob/v1.52.0/crates/goose/src/agents/agent.rs
-- Vendor issue: (add after filing — https://github.com/aaif-goose/goose/issues/NNN)
+- Vendor issue: https://github.com/aaif-goose/goose/issues/12566
 
 ## Disclosure timeline
 
 | Date | Event |
 |---|---|
 | 2026-09 | Discovered and verified |
-| 2026-09 | Reported to vendor (GitHub issue) |
 | 2026-09 | Submitted to VulnCheck (pending CVE assignment) |
+| 2026-09 | Reported to vendor (GitHub issue #12566) |
 
 ## Credit
 
