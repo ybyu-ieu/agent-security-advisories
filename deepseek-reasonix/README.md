@@ -1,6 +1,6 @@
 # DeepSeek-Reasonix (esengine/DeepSeek-Reasonix) security advisories
 
-Advisories for the DeepSeek-Reasonix project ([esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)). All findings were verified against version 1.17.8 and reported through CNVD coordinated disclosure before publication; vendor notification via public GitHub issues is proceeding as part of this publication batch (an earlier private GitHub Security Advisory report remains in Triage with maintainer engagement). No patched release is available at the time of writing.
+Advisories for the DeepSeek-Reasonix project ([esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)). All findings were verified against version 1.17.8 and reported through CNVD coordinated disclosure before publication; reported to the vendor through a public GitHub issue on 2026-10-14 ([#13061](https://github.com/esengine/DeepSeek-Reasonix/issues/13061)); an earlier private GitHub Security Advisory report remains in Triage with maintainer engagement. No patched release is available at the time of writing.
 
 | Advisory | CWE | CVSS v3.1 | Affected versions |
 |----------|:---:|:---------:|-------------------|

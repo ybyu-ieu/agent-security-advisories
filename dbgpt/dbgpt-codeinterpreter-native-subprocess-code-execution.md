@@ -444,6 +444,13 @@ if __name__ == "__main__":
 3. **Monitoring:** alert on `asyncio.create_subprocess_exec` / `sys.executable` / `_run.py` script executions; monitor for marker files and abnormal file writes.
 4. **Minimization:** do not configure public-facing model/agent services in production; where exposure is necessary, front the service with a reverse proxy that enforces authentication.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#3288](https://github.com/eosphoros-ai/DB-GPT/issues/3288)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |

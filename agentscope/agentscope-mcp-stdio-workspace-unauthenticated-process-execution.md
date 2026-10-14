@@ -182,6 +182,13 @@ The file is created with the privileges of the AgentScope server process user. T
 5. Operator workaround: bind the service to `127.0.0.1` instead of `0.0.0.0`.
 6. Operator workaround: block `POST /workspace/mcp` at the network or reverse-proxy layer.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#3312](https://github.com/agentscope-ai/agentscope/issues/3312)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |

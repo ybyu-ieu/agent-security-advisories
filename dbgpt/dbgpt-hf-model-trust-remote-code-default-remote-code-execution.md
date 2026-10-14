@@ -492,6 +492,13 @@ Score computed with the official FIRST CVSS v3.1 formula: ISS = 1−(1−0.56)^3
 
 Code-level fix direction: change the `trust_remote_code` defaults to `False` (explicit opt-in only), and add an authentication dependency to the model registration endpoint, aligning with the `Depends(check_api_key)` pattern used by `/test_auth` at `endpoints.py:120`. As of the filing date (2026-08-19), no official fix had been released.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#3290](https://github.com/eosphoros-ai/DB-GPT/issues/3290)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |

@@ -521,6 +521,13 @@ Expected result: all checks print `[PASS]`; the server log shows "EXECUTING CODE
 
 **Formal fix:** at the time of submission, no official patch had been released by the vendor.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#3287](https://github.com/eosphoros-ai/DB-GPT/issues/3287)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |

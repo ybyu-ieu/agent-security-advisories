@@ -198,6 +198,13 @@ Verification summary (6/6):
 3. In `.env.example`, add an explicit warning and a key-generation command (`openssl rand -base64 42`).
 4. Do not expose port 8194 by default in the middleware deployment; require an explicit opt-in environment variable.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#44054](https://github.com/langgenius/dify/issues/44054)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |

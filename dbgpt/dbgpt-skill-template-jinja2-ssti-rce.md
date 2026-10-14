@@ -433,6 +433,13 @@ Computed with the official FIRST CVSS v3.1 formula: ISS = 1-(1-0.56)^3 = 0.91481
 
 **Code-level fix direction:** use `jinja2.SandboxedEnvironment` (blocking dangerous attribute/dunder access) at `base_agent.py:1258` and `prompt.py:35`; sanitize, or reject, SKILL.md instructions that contain template special elements before they enter any template.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#3291](https://github.com/eosphoros-ai/DB-GPT/issues/3291)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |

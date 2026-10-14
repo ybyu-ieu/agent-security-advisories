@@ -213,6 +213,13 @@ This time the SSE stream **does** contain a `RequireUserConfirmEvent` -- the per
 3. **Systemic:** Periodically audit every command in `SAFE_COMMANDS` to verify it is genuinely read-only (no filesystem write side effects). At minimum, audit any command that accepts file operands.
 4. **Architectural:** Reconsider the hard short-circuit at Layer 1 (`return ALLOW`). Treating a Layer 1 classification as "trusted" while continuing the subsequent checks would preserve the convenience of auto-approving read-only commands without silently skipping the remaining layers.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#3313](https://github.com/agentscope-ai/agentscope/issues/3313)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |

@@ -1045,6 +1045,13 @@ An alternative conservative scoring treats execution as local and LLM-non-determ
 4. **Make repository memory non-authoritative for tool use:** tool-use directives from repository-provided memory should require explicit user confirmation before execution.
 5. **Opt-out mechanism:** provide a configuration and/or CLI flag (e.g. `--no-project-memory`) to disable automatic project memory loading per workspace or globally.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#13061](https://github.com/esengine/DeepSeek-Reasonix/issues/13061)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |

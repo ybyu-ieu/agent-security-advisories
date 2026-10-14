@@ -133,6 +133,13 @@ Expected: `HTTP/1.1 200 OK` with zero credentials (Bob's namespace is empty). Re
 3. **Bind to `127.0.0.1`.** Until authentication is in place, do not bind the service to `0.0.0.0`; require local or VPN-only access.
 4. **Remove header-based identity.** Derive user identity exclusively from a cryptographically verified token (JWT claims, API key lookup, OAuth2 subject) instead of the client-supplied `X-User-ID` header.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#3314](https://github.com/agentscope-ai/agentscope/issues/3314)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |

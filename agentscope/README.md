@@ -1,6 +1,6 @@
 # AgentScope (agentscope-ai/agentscope) security advisories
 
-Advisories for the AgentScope multi-agent framework ([agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)). All findings were verified against version 2.0.4 and reported through CNVD coordinated disclosure before publication; vendor notification via public GitHub issues is proceeding as part of this publication batch (earlier private GitHub Security Advisory reports remain in Triage). No patched release is available at the time of writing.
+Advisories for the AgentScope multi-agent framework ([agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)). All findings were verified against version 2.0.4 and reported through CNVD coordinated disclosure before publication; reported to the vendor through public GitHub issues on 2026-10-14 ([#3312](https://github.com/agentscope-ai/agentscope/issues/3312), [#3313](https://github.com/agentscope-ai/agentscope/issues/3313), [#3314](https://github.com/agentscope-ai/agentscope/issues/3314)); earlier private GitHub Security Advisory reports remain in Triage. No patched release is available at the time of writing.
 
 | Advisory | CWE | CVSS v3.1 | Affected versions |
 |----------|:---:|:---------:|-------------------|

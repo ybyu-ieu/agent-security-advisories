@@ -482,6 +482,13 @@ python poc.py --target http://localhost:5670
 
 **Code-level fix direction:** implement real review/inquiry logic in `review()`; enforce the review result before `act()` executes (instead of only recording it, with the sole checkpoint after execution); for high-risk actions set `ActionOutput.ask_user` to `True` so the `UserProxyAgent` confirmation chain is actually wired up.
 
+## Timeline
+
+| Date | Event |
+|------|-------|
+| 2026-10-14 | Reported to vendor (GitHub issue [#3289](https://github.com/eosphoros-ai/DB-GPT/issues/3289)) |
+| 2026-10-14 | This advisory published |
+
 ## Weaknesses
 
 | # | CWE | Name | Rationale |
