@@ -10,12 +10,16 @@ Maintained by Yongbo Yu ([ybyu-ieu](https://github.com/ybyu-ieu)), independent s
 |-----------|---------|:---:|
 | [`camel/`](camel/) | CAMEL ([camel-ai/camel](https://github.com/camel-ai/camel), PyPI `camel-ai`) | 8 |
 | [`goose/`](goose/) | goose ([aaif-goose/goose](https://github.com/aaif-goose/goose)) | 2 |
+| [`dbgpt/`](dbgpt/) | DB-GPT ([eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT)) | 5 |
+| [`agentscope/`](agentscope/) | AgentScope ([agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)) | 3 |
+| [`dify/`](dify/) | Dify ([langgenius/dify](https://github.com/langgenius/dify)) | 1 |
+| [`deepseek-reasonix/`](deepseek-reasonix/) | DeepSeek-Reasonix ([esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)) | 1 |
 
 Earlier advisories for the Agno framework are hosted separately: [agno-security-advisories](https://github.com/ybyu-ieu/agno-security-advisories).
 
 ## Coordinated disclosure
 
-All vulnerabilities described in this repository were reported to the respective vendors before publication. Advisory content is limited to the technical details necessary for defenders to assess exposure; where a vendor fix becomes available, the affected advisory is updated accordingly.
+All vulnerabilities described in this repository were reported through coordinated-disclosure channels (CNVD and/or the respective vendors) before publication. Advisory content is limited to the technical details necessary for defenders to assess exposure; where a vendor fix becomes available, the affected advisory is updated accordingly.
 
 ## Disclaimer
 
