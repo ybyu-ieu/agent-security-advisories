@@ -63,14 +63,14 @@ Full PoC (English): [dbgpt-skill-script-native-subprocess-execution-rce-poc.py](
 - Personal-skill gate default: https://github.com/eosphoros-ai/DB-GPT/blob/v0.8.1/packages/dbgpt-core/src/dbgpt/agent/skill/manage.py#L547-L553
 - Tool definition: https://github.com/eosphoros-ai/DB-GPT/blob/v0.8.1/packages/dbgpt-app/src/dbgpt_app/openapi/api_v1/agentic_data_api.py#L284-L306
 - Unauthenticated skill upload: https://github.com/eosphoros-ai/DB-GPT/blob/v0.8.1/packages/dbgpt-app/src/dbgpt_app/openapi/api_v1/agentic_data_api.py#L548-L552
-- Vendor issue: (add after filing — https://github.com/eosphoros-ai/DB-GPT/issues/NNN)
+- Vendor issue: https://github.com/eosphoros-ai/DB-GPT/issues/3322
 
 ## Disclosure timeline
 
 - 2026-08-08 — Discovered and dynamically verified (7/7 assertions)
 - 2026-08-15 — Reported to CNVD (coordinated disclosure; under review)
 - 2026-10-26 — Submitted to MITRE (pending CVE assignment)
-- 2026-10-26 — Reported to vendor (GitHub issue #NNN — add after filing)
+- 2026-10-27 — Reported to vendor (GitHub issue [#3322](https://github.com/eosphoros-ai/DB-GPT/issues/3322))
 
 ## Credit
 

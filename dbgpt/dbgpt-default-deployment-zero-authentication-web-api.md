@@ -61,14 +61,14 @@ Full PoC (English): [dbgpt-default-deployment-zero-authentication-web-api-poc.py
 - V2 API-key fail-open: https://github.com/eosphoros-ai/DB-GPT/blob/v0.8.1/packages/dbgpt-app/src/dbgpt_app/openapi/api_v2.py#L43-L68
 - Unauthenticated route mounting: https://github.com/eosphoros-ai/DB-GPT/blob/v0.8.1/packages/dbgpt-app/src/dbgpt_app/dbgpt_server.py#L55-L88
 - Permissive CORS: https://github.com/eosphoros-ai/DB-GPT/blob/v0.8.1/packages/dbgpt-app/src/dbgpt_app/dbgpt_server.py#L264-L270
-- Vendor issue: (add after filing — https://github.com/eosphoros-ai/DB-GPT/issues/NNN)
+- Vendor issue: https://github.com/eosphoros-ai/DB-GPT/issues/3321
 
 ## Disclosure timeline
 
 - 2026-08-06 — Discovered and dynamically verified (9/9 assertions)
 - 2026-08-15 — Reported to CNVD (coordinated disclosure; under review)
 - 2026-10-26 — Submitted to MITRE (pending CVE assignment)
-- 2026-10-26 — Reported to vendor (GitHub issue #NNN — add after filing)
+- 2026-10-27 — Reported to vendor (GitHub issue [#3321](https://github.com/eosphoros-ai/DB-GPT/issues/3321))
 
 ## Credit
 
